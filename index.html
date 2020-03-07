@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <html>
+  <head lang="en">
+      <!-- Nice font -->
+      <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/gidole-regular" type="text/css"/>
+      <!-- Sets the body to the same font -->
+      <style type = "text/css">
+        body {
+         font-family: 'GidoleRegular';
+         font-weight: normal;
+         font-style: normal;
+        }
+      </style>
+    <meta charset="utf-8">
+    <title> Capital One SES Coding Challenge </title>
+  </head>
+  <!-- sets a background image for the body -->
+  <body style="background-image:url(webb.png)">
+    <h1> Lettuce Eat </h1>
+    <h2><b> A user-friendly application that promotes vegetarian, vegan, and plant-based options!</b></h2>
+    <h3> Please enter your ideal search methods to find restaurants near you:</h3>
+    <!-- Creates a form to allow users to enter their preferences to return search results -->
+    <form id="frm1" action="action.php" method="POST">
+      <p> Please select which type of cuisine you are searching for:</p>
+      <input type="radio" id="vegan" name="cuisine" value="vegan" required>
+      <label for="vegan">Vegan</label>
+      <input type="radio" id="vegetarian" name="cuisine" value="vegetarian" required>
+      <label for="vegetarian">Vegetarian</label>
+      <input type="radio" id="meat" name="cuisine" value="restaurant" required>
+      <label for="meat">Meat-Friendly</label><br><br>
+      <label for="limit">Please type your desired number of results (Any number from 1-50): </label>
+      <input type="number" id="limit" name="limit" min=1 max=50 required><br><br>
+      <p> Please select what price level you are searching for:</p>
+      <input type="radio" id="$" name="price" value="1" required>
+      <label for="$">Up to $</label><br>
+      <input type="radio" id="$$" name="price" value="1,2" required>
+      <label for="$$">Up to $$</label><br>
+      <input type="radio" id="$$$" name="price" value="1,2,3" required>
+      <label for="$$$">Up to $$$</label><br>
+      <input type="radio" id="$$$$" name="price" value="1,2,3,4" required>
+      <label for="$$$$">Up to $$$$</label><br><br>
+      <p> Please select what you would like your results to be sorted by:</p>
+      <input type="radio" id="best_match" name="sort" value="best_match" required>
+      <label for="best_match">Best Match</label><br>
+      <input type="radio" id="rating" name="sort" value="rating" required>
+      <label for="rating">Rating</label><br>
+      <input type="radio" id="review_count" name="sort" value="review_count" required>
+      <label for="review_count">Review Count</label><br>
+      <input type="radio" id="distance" name="sort" value="distance" required>
+      <label for="distance">Distance</label><br><br>
+      <p> Would you like the results of all restaurants or only restaurants that are currently open?</p>
+      <input type="radio" id="all" name="open" value="false" required>
+      <label for="open">All Restaurants</label>
+      <input type="radio" id="only_open" name="open" value="true" required>
+      <label for="distance">Restaurants Open Now</label><br><br>
+      <label for="miles">Please select which radius of restaurants you would prefer (From 1-24 miles away): </label>
+      <input type="number" id="miles" name="miles" min=1 max=24 required><br><br>
+      <input type = "submit" value="Submit">
+    </form>
+  </body>
+</html>
