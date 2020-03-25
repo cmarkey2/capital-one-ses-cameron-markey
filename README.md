@@ -1,3 +1,4 @@
 # capital-one-ses-cameron-markey
-This repository contains all code for Cameron Markey's Capital One SES Coding Challenge for Summer 2020. Being a freshman in college, I went from having no experience with building a website to having a working website using multiple APIs within two weeks! Thank you so much for this oppurtunity, as it has pushed me to gain so much knowledge about using HTML, JavaScript, and PHP. :)
-The website URL is https://cameronmarkey.com
+This repository contains all code for Cameron Markey's winning website for the Capital One Software Engineering Summit Coding Challenge for Summer 2020. This coding challenge was part 2 of the application process to be considered for this Summit. Being a freshman in college, I went from having no experience with building a website to having a working website using JavaScript, PHP, AJAX, HTML, CSS, and multiple APIs within two weeks! 
+
+The website URL is https://cameronmarkey.com (will not work after March 30)
